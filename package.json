@@ -1,0 +1,17 @@
+{
+  "files": [
+    "ts/**/*"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3",
+    "tslib": "^2.4.1"
+  },
+  "dependencies": {
+    "@woltlab/wcf": "https://github.com/WoltLab/WCF.git#944f69cf9482d4b68aaec72a4c1c414f8d033479"
+  }
+}

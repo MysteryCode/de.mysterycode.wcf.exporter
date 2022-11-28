@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd" languagecode="de">
+    <import>
+        <category name="wcf.acp.dataMigration">
+            <item name="wcf.acp.dataMigration"><![CDATA[Daten-Migration]]></item>
+            <item name="wcf.acp.dataMigration.intro"><![CDATA[blabla blabla blabla]]></item>
+            <item name="wcf.acp.dataMigration.sourceSelection"><![CDATA[Auswahl des Quell-Systems]]></item>
+            <item name="wcf.acp.dataMigration.source"><![CDATA[Quell-System]]></item>
+            <item name="wcf.acp.dataMigration.credentials"><![CDATA[Zugangsdaten zur Datenbank des Quell-Systems]]></item>
+            <item name="wcf.acp.dataMigration.credentials.dbHost"><![CDATA[Hostname]]></item>
+            <item name="wcf.acp.dataMigration.credentials.dbName"><![CDATA[Datenbankname]]></item>
+            <item name="wcf.acp.dataMigration.credentials.dbUser"><![CDATA[Benutzername]]></item>
+            <item name="wcf.acp.dataMigration.credentials.dbPassword"><![CDATA[Kennwort]]></item>
+            <item name="wcf.acp.dataMigration.credentials.dbPrefix"><![CDATA[Tabellen-Präfix]]></item>
+        </category>
+        <category name="wcf.acp.menu">
+            <item name="wcf.acp.menu.link.maintenance.migration"><![CDATA[Daten-Migration]]></item>
+        </category>
+    </import>
+</language>

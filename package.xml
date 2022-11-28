@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.mysterycode.wcf.exporter" xmlns="http://www.woltlab.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/6.0/package.xsd">
+    <packageinformation>
+        <packagename>WoltLab Suite Core: Migration Assistant</packagename>
+        <packagename language="de">WoltLab Suite Core: Migrations-Assistent</packagename>
+        <packagedescription>Migrated data from other systems.</packagedescription>
+        <packagedescription language="de">Ermöglicht die Datenmigration aus anderen Systemen.</packagedescription>
+
+        <version>6.0.0 dev 1</version>
+        <date>2022-11-28</date>
+    </packageinformation>
+
+    <authorinformation>
+        <author>Florian Gail</author>
+        <authorurl>https://www.mysterycode.de</authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="6.0.0 dev 1">com.woltlab.wcf</requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="6.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+    </excludedpackages>
+
+    <instructions type="install">
+        <instruction type="acpTemplate"/>
+        <instruction type="file"/>
+
+        <instruction type="language"/>
+
+        <!--
+        <instruction type="objectTypeDefinition"/>
+        <instruction type="objectType"/>
+        -->
+
+        <instruction type="acpMenu"/>
+    </instructions>
+</package>
